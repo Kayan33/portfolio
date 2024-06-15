@@ -1,57 +1,120 @@
 body {
   margin: 0;
-  max-width: 2000px;
-  background-image: url('../Assets/4873152.jpg');
+  background-image: url("../Assets/4873152.jpg");
   background-repeat: no-repeat;
   background-position: center center;
 }
 
-a{
- text-decoration: none;
-}
-h1,
-h2,
-h3,
-p {
-  margin: 0px;
-}
-ul{
-  margin: 0px;
-  padding: 0px;
-  list-style: none;
-}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;}
 
 img {
   max-width: 100%;
   height: auto;
   display: block;
 }
-
-
-.container-header{
+/* HEADER */
+.container-header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  background-color: #ffffff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  padding: 10px 150px;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  background: transparent;
+  padding: 22px 200px
   
-} 
-.container-header h3{
-font-size: 35px;
-font-family: 'Poppins', sans-serif;
-font-weight: 700;
-padding-right: 20px;
-
 }
-.lista-header{
+.container-header h3 {
+  font-size: 35px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  padding-right: 20px;
+}
+.lista-header {
   display: flex;
   gap: 50px;
 }
 
-.lista-header a{
+.lista-header a {
   color: #000000;
-  font-family: 'Poppins', sans-serif;
-    font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.container { 
+  padding: 10px 200px;
+}
+
+/* HOME */
+.section-home{
+display: flex;
+height: 100vh;
+align-items: center;
+}
+.container-home {
+  margin-top: 100px;
+  
+}
+.container-home span {
+  background-color: #005200;
+  color: #ffffff;
+  padding: 2px 15px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.container-home p {
+  font-size: 20px;
+}
+
+.container-home h1 {
+  font-size: 80px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #03235e;
+}
+
+.container-home h2 {
+  font-size: 48px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #03235e;
+  line-height: 1;
+}
+
+.contact-section {
+  display: flex;
+  align-items: center;
+  margin-top: 45px;
+}
+
+.link-fale-comigo{
+  padding: 16px 26px;
+  border-radius: 5px;
+  color: #ffffff;
+  background: #005200;
+  margin-right: 60px;
+  
+}
+
+.contact-section img {
+  background-color: #005200;
+  padding: 10px;
+  border-radius: 100%;
+}
+
+.contact-section p {
+  color: #03235e;
+}
+
+.link-trabalhos{
+  padding: 18px;
+  color: #03235e;
 }
