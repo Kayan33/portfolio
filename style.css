@@ -42,7 +42,7 @@ img {
 .lista-header a {
   color: #000000;
   font-family: "Poppins", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .container {
@@ -86,11 +86,6 @@ img {
   line-height: 1;
 }
 
-.contact-section {
-  display: flex;
-  align-items: center;
-  margin-top: 45px;
-}
 
 .link-fale-comigo {
   padding: 16px 26px;
@@ -98,6 +93,15 @@ img {
   color: #ffffff;
   background: #005200;
   margin-right: 60px;
+}
+.contact-section {
+  display: flex;
+  align-items: center;
+  margin-top: 45px;
+}
+.contact-section a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
 }
 
 .contact-section img {
