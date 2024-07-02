@@ -1,72 +1,82 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
+
 <body>
-    <header>
-        <nav class="container-header">
-            <h3>kayan</h3>
-            <ul class="lista-header">
-                <li><a href="#home">HOME</a></li>
-                <li><a href="#sobre">SOBRE MIM</a></li>
-                <li><a href="#experiencia">EXPERIÊNCIA</a></li>
-                <li><a href="#projetos">PROJETOS</a></li>
-                <li><a href="#habilidades">HABILIDADES</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div id="particles-js">
-        <main class="container">
-            <section id="home" class="section-home">
-                <div class="container-home">
-                    <p><span>Olá</span> eu sou</p>
-                    <h1 data-aos="fade-right">Kayan Pereira</h1>
-                    <h2 data-aos="fade-left">Desenvolvedor <br />Full-Stack</h2>
-                    <div class="contact-section">
-                        <a class="link-fale-comigo" href="whats">Fale Comigo</a>
-                        <a href="#">
-                            <img class="contact-icon" src="/Assets/Icon.svg" alt="" />
-                        </a>
-                        <a href="" class="link-trabalhos">Veja meu trabalho</a>
-                    </div>
-                </div>
-            </section>
-        </main>
-      </div >
-        <main class="container-pai">
-          <section id="sobre" class="container-sobre">
-            <div>
-              <img src="/Assets/perfil.png" alt="">
-            </div>
-            <div class="sobre">
-              <h1>Sobre <span>mim</span></h1>
-              <h2>Simplesmente apaixonado por <br> codificação.</h2>
-              <ul>
-                <li>para que vocês possam ver de onde vem todo</li>
-              </ul>
-              <ul>
-                <li>Por outro lado, denunciamos com justa indignação</li>
-              </ul>
-              <ul>
-                <li>sempre se apega a este princípio</li>
-              </ul>
-              <ul>
-                <li>A menos que estejam cegos pelo desejo</li>
-              </ul>
-            </div>
-          </section>
-        </main>
-    <script src="index.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script src="/particles.js"></script>
+  <header>
+    <nav class="container-header">
+      <h3>kayan</h3>
+      <ul class="lista-header">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#sobre">SOBRE MIM</a></li>
+        <li><a href="#experiencia">EXPERIÊNCIA</a></li>
+        <li><a href="#projetos">PROJETOS</a></li>
+        <li><a href="#habilidades">HABILIDADES</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="particles-js">
+    <main class="container">
+      <section id="home" class="section-home">
+        <div class="container-home">
+          <p><span>Olá</span> eu sou</p>
+          <h1 data-aos="fade-right">Kayan Pereira</h1>
+          <h2 data-aos="fade-left">Desenvolvedor <br />Full-Stack</h2>
+          <div class="contact-section">
+            <a class="link-fale-comigo" href="whats">Fale Comigo</a>
+            <a href="#">
+              <img class="contact-icon" src="/Assets/Icon.svg" alt="" />
+            </a>
+            <a href="" class="link-trabalhos">Veja meu trabalho</a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <section id="sobre" class="container-sobre">
+    <div class="outer-border" data-aos="fade-down-right">
+      <img class="sobre-img" src="/Assets/perfil.png" alt="Foto de perfil">
+    </div>
+    <div class="sobre" data-aos="fade-up" data-aos-anchor-placement="top-center">
+      <h1>Sobre <span>mim</span></h1>
+      <h2>Simplesmente apaixonado por codificação.</h2>
+      
+      <ul>
+        <li>Experiência em desenvolvimento full-stack.</li>
+        <li>Comprometido com a entrega de software de alta qualidade.</li>
+        <li>Entusiasta por aprender novas tecnologias e frameworks.</li>
+      </ul>
+      <div class="icons">
+        <div class="icon">
+          <a href="https://www.linkedin.com/in/kayan-pereira-99a328282/" target="_blank"><img src="/Assets/linkedin.svg" alt="Ícone do LinkedIn"></a>
+        </div>
+        <div class="icon">
+          <a href="https://github.com/Kayan33" target="_blank"><img src="/Assets/git.svg" alt="Ícone do GitHub"></a>
+        </div>
+        <div class="icon">
+          <a href="/caminho/do/seu/curriculo.pdf" target="_blank"><img src="/Assets/curriculum-resume-svgrepo-com 1.svg" alt="Ícone de currículo"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+
+  <script src="index.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="/particles.js"></script>
 </body>
+
 </html>
