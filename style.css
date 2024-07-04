@@ -54,7 +54,7 @@ img {
   position: absolute;
   justify-content: center;
   align-items: center;
-  width: 98.9vw;
+  width: 100%;
 }
 
 /* HOME */
@@ -241,6 +241,16 @@ img {
   flex-direction: column;
   box-sizing: border-box;
 }
+.container-experiencia header h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  color: #03235E;
+}
+.container-experiencia header h1 span {
+  color: #005200;
+}
+
 
 .experiencia {
   display: flex;
@@ -251,13 +261,56 @@ img {
   box-sizing: border-box;
 }
 
+.experiencia-img img{
+  background: linear-gradient(to bottom, #ECECEC, #868686);
+  padding: 10px;
+  border-radius: 50%;
+}
+
 .detalhes-experiencia {
   background: #ECECEC;
   width: 100%; 
-  padding: 25px;
+  height: 160px;
+  padding: 20px;
+  margin-left: 25px;
   box-sizing: border-box; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
+.detalhes-experiencia time{
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  color: #03235E;
+  font-size: 14px;
+}
+
+.detalhes-experiencia time span{
+  color: #005200;
+}
+
+.detalhes-experiencia h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #03235E;
+  font-size: 20px;
+}
+
+.detalhes-experiencia h2 span {
+  color: #005200;
+}
+
+.detalhes-experiencia p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #03235E;
+  font-size: 18px;
+}
+
+.detalhes-experiencia p span {
+  color: #005200;
+}
 
 
 
