@@ -213,10 +213,10 @@ img {
   max-width: 100%;
   max-height: 100%;
   display: block;
-  animation: move 2.5s infinite ease-in-out; 
+  animation: moveIcon  2.5s infinite ease-in-out; 
 }
 
-@keyframes move {
+@keyframes moveIcon  {
   0% {
     transform: translateY(0); 
   }
@@ -265,6 +265,19 @@ img {
   background: linear-gradient(to bottom, #ECECEC, #868686);
   padding: 10px;
   border-radius: 50%;
+  animation: moveExperiencia  2s infinite ease-in-out;
+}
+
+@keyframes moveExperiencia  {
+  0% {
+    transform: translate(0); 
+  }
+  50% {
+    transform: translate(-5px); 
+  }
+  100% {
+    transform: translate(0); 
+  }
 }
 
 .detalhes-experiencia {
