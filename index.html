@@ -7,6 +7,7 @@
   <title>Portfolio</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Lacquer&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -48,7 +49,7 @@
     <div class="sobre" data-aos="fade-up" data-aos-anchor-placement="top-center">
       <h1>Sobre <span>mim</span></h1>
       <h2>Simplesmente apaixonado por codificação.</h2>
-      
+
       <ul>
         <li>Experiência em desenvolvimento full-stack.</li>
         <li>Comprometido com a entrega de software de alta qualidade.</li>
@@ -56,34 +57,36 @@
       </ul>
       <div class="icons">
         <div class="icon">
-          <a href="https://www.linkedin.com/in/kayan-pereira-99a328282/" target="_blank"><img src="/Assets/linkedin.svg" alt="Ícone do LinkedIn"></a>
+          <a href="https://www.linkedin.com/in/kayan-pereira-99a328282/" target="_blank"><img src="/Assets/linkedin.svg"
+              alt="Ícone do LinkedIn"></a>
         </div>
         <div class="icon">
           <a href="https://github.com/Kayan33" target="_blank"><img src="/Assets/git.svg" alt="Ícone do GitHub"></a>
         </div>
         <div class="icon">
-          <a href="/caminho/do/seu/curriculo.pdf" target="_blank"><img src="/Assets/curriculum-resume-svgrepo-com 1.svg" alt="Ícone de currículo"></a>
+          <a href="/caminho/do/seu/curriculo.pdf" target="_blank"><img src="/Assets/curriculum-resume-svgrepo-com 1.svg"
+              alt="Ícone de currículo"></a>
         </div>
       </div>
     </div>
   </section>
-  
-  <article class="container-experiencia">
-  <header>
-    <h1><span>Histórico</span> Acadêmico</h1>
-  </header>
-  <div class="experiencia">
-    <figure class="experiencia-img"data-aos="fade-right"data-aos-duration="1200">
-      <img src="/Assets/senac.png" alt="Logo Senac">
-    </figure>
-    <div class="detalhes-experiencia" data-aos="zoom-in-left">
-      <time datetime="2024-01-01">2024 - <span>momento</span></time>
-      <h2>Técnico em Informática para Internet - <span>Senac Bauru</span></h2>
-      <p><span>Stack:</span> React.js, React Native, JavaScript, Node.js, MySQL, API REST, CSS, HTML</p>
-    </div>
-  </div>
+
+  <article class="container-experiencia" id="experiencia">
+    <header>
+      <h1><span>Histórico</span> Acadêmico</h1>
+    </header>
     <div class="experiencia">
-      <figure class="experiencia-img"data-aos="fade-right"data-aos-duration="1200">
+      <figure class="experiencia-img" data-aos="fade-right" data-aos-duration="1200">
+        <img src="/Assets/senac.png" alt="Logo Senac">
+      </figure>
+      <div class="detalhes-experiencia" data-aos="zoom-in-left">
+        <time datetime="2024-01-01">2024 - <span>momento</span></time>
+        <h2>Técnico em Informática para Internet - <span>Senac Bauru</span></h2>
+        <p><span>Stack:</span> React.js, React Native, JavaScript, Node.js, MySQL, API REST, CSS, HTML</p>
+      </div>
+    </div>
+    <div class="experiencia">
+      <figure class="experiencia-img" data-aos="fade-right" data-aos-duration="1200">
         <img src="/Assets/senac.png" alt="Logo Senac">
       </figure>
       <div class="detalhes-experiencia" data-aos="zoom-in-left">
@@ -93,7 +96,61 @@
       </div>
     </div>
   </article>
-</section>
+  </section>
+
+  <section class="container-portifolio" id="projetos">
+    <header>
+      <h1>PORTFÓLIO</h1>
+      <h2><span>Últimos</span> Projetos</h2>
+    </header>
+    <div class="projetos-container">
+      <article class="projeto-item">
+        <figure class="projeto-img">
+          <img src="/Assets/howtobrasil.png" alt="Imagem do projeto How To Brasil">
+        </figure>
+        <div class="projeto-content">
+          <h3>How To Brasil</h3>
+          <p>How to Brasil é um projeto voltado a imigrantes recém-chegados no Brasil com intuito de proporcionar saúde,
+            trabalho, alimentação, entre outros.</p>
+          <div class="projeto-links">
+            <div class="projeto-links-visitar">
+              <img src="/Assets/seta.svg" alt="Ícone de seta">
+              <a href="#">Visitar</a>
+            </div>
+            <div class="projeto-links-git">
+              <img src="/Assets/gitlink.svg" alt="Ícone do GitHub">
+              <a href="#">Código-fonte</a>
+            </div>
+          </div>
+        </div>
+      </article>
+      
+    </div>
+
+    <div class="projetos-container">
+      <article class="projeto-item">
+        <div class="projeto-content">
+          <h3>How To Brasil</h3>
+          <p>How to Brasil é um projeto voltado a imigrantes recém-chegados no Brasil com intuito de proporcionar saúde,
+            trabalho, alimentação, entre outros.</p>
+          <div class="projeto-links">
+            <div class="projeto-links-visitar">
+              <img src="/Assets/seta.svg" alt="Ícone de seta">
+              <a href="#">Visitar</a>
+            </div>
+            <div class="projeto-links-git">
+              <img src="/Assets/gitlink.svg" alt="Ícone do GitHub">
+              <a href="#">Código-fonte</a>
+            </div>
+          </div>
+        </div>
+        <figure class="projeto-img">
+          <img src="/Assets/educacao.png" alt="Imagem do projeto How To Brasil">
+        </figure>
+      </article>
+      
+    </div>
+  </section>
 
 
   <script src="index.js"></script>
