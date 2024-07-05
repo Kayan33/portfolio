@@ -28,6 +28,7 @@ img {
   justify-content: space-between;
   background: transparent;
   padding: 22px 200px;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .container-header h3 {
@@ -352,7 +353,7 @@ img {
   font-weight: 800;
   font-size: 17vw;
   white-space: nowrap;
-  color: rgba(0, 0, 0, 0.05);
+  color: rgba(0, 0, 0, 0.1);
 }
 
 .container-portifolio header h2 {
@@ -361,17 +362,19 @@ img {
   font-size: 48px;
   color: #03235E;
   text-align: center;
+  margin-bottom: 4rem;
 }
 
 .container-portifolio header h2 span {
   color: #005200;
 }
-
-.projetos-container{
-display: grid;
-width: 100%;
-gap: 150px;
+.projetos-todos{
+  display: grid;
+  width: 100%;
+  gap: 9rem;
+  margin-bottom: 80px;
 }
+
 .projeto-item {
   display: flex;
   align-items: center;
@@ -383,8 +386,22 @@ gap: 150px;
 .projeto-img img {
   display: block;
   max-width: 100%;
-  max-height: 800px;
+  max-height: 500px;
+  width: 100%; 
+  height: auto;
+  animation: moveIconPortifolio 4s infinite ease-in-out;
 }
+@keyframes moveIconPortifolio {
+  0%, 100% {
+    transform: translateX(0) rotate(-1deg); 
+  }
+  50% {
+    transform: translateX(10px) rotate(1deg); 
+  }
+}
+
+
+
 
 .projeto-content h3 {
   font-family: "Poppins", sans-serif;
@@ -392,8 +409,19 @@ gap: 150px;
   font-size: 36px;
   color: #03235E;
   text-align: end;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
+
+.projeto-content-02 h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 36px;
+  color: #03235E;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+
 
 .projeto-content p {
   font-size: 20px;
@@ -402,31 +430,61 @@ gap: 150px;
   margin-bottom: 10px;
 }
 
+.projeto-content-02 p {
+  font-size: 20px;
+  max-width: 30ch;
+  word-break: break-word;
+  margin-bottom: 20px;
+}
+
 .projeto-links{
   display: flex;
   justify-content: flex-end;
+  align-items: center;
+}
+.projeto-links-02{
+  display: flex;
+  align-items: center;
 }
 .projeto-links div {
   display: flex;
 }
 
-.projeto-links-visitar{
-  background-color: #005200;
-  padding: 5px 10px;
-  border-radius: 5px;
-}
+
  .projeto-links-visitar a {
   color: #ECECEC;
   font-size: 14px;
+  background-color: #005200;
+  padding: 10px 10px 10px 25px;
+  border-radius: 5px;
+  margin-right: 2rem;
+  position: relative;
  }
-
- .projeto-links-git{
+ .projeto-links-visitar a::before {
+  content: "";
+  position: absolute;
+  background-image: url("/Assets/seta.svg");
+  width: 16px;  
+  height: 16px;  
+  left: 5px;
+}
+ .projeto-links-git a{
   border: 1px solid #000000;
-  padding: 5px 10px;
+  padding: 10px 10px 10px 30px;
   border-radius: 5px;
   background: #ffffff;
+  color: #000000;
+  position: relative;
  }
-
+ .projeto-links-git a::before {
+  content: "";
+  position: absolute;
+  background-image: url("/Assets/gitlink.svg");
+  width: 16px;  
+  height: 16px;  
+  left: 8px;
+  top: 8px;
+}
 
 /* ---- reset ---- */
 body {
