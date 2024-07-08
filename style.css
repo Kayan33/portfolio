@@ -145,6 +145,9 @@ img {
   background-blend-mode: overlay;
   width: 100%;
   height: 100vh;
+  flex-wrap: wrap;
+  padding-left: 100px;
+  padding-right: 100px;
 
 }
 
@@ -342,6 +345,7 @@ img {
   width: 100%;
   flex-direction: column;
   box-sizing: border-box;
+
 }
 
 .dcontainer-portifolio header {
@@ -368,11 +372,12 @@ img {
 .container-portifolio header h2 span {
   color: #005200;
 }
-.projetos-todos{
+
+.projetos-todos {
   display: grid;
   width: 100%;
   gap: 9rem;
-  margin-bottom:100px;
+  margin-bottom: 100px;
 }
 
 .projeto-item {
@@ -380,23 +385,28 @@ img {
   align-items: center;
   width: 100%;
   justify-content: space-around;
-  
+  flex-wrap: wrap;
+
 }
 
 .projeto-img img {
   display: block;
   max-width: 100%;
   max-height: 500px;
-  width: 100%; 
+  width: 100%;
   height: auto;
   animation: moveIconPortifolio 4s infinite ease-in-out;
 }
+
 @keyframes moveIconPortifolio {
-  0%, 100% {
-    transform: translateX(0) rotate(-1deg); 
+
+  0%,
+  100% {
+    transform: translateX(0) rotate(-1deg);
   }
+
   50% {
-    transform: translateX(10px) rotate(1deg); 
+    transform: translateX(10px) rotate(1deg);
   }
 }
 
@@ -437,21 +447,23 @@ img {
   margin-bottom: 20px;
 }
 
-.projeto-links{
+.projeto-links {
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
-.projeto-links-02{
+
+.projeto-links-02 {
   display: flex;
   align-items: center;
 }
+
 .projeto-links div {
   display: flex;
 }
 
 
- .projeto-links-visitar a {
+.projeto-links-visitar a {
   color: #ECECEC;
   font-size: 14px;
   background-color: #005200;
@@ -459,61 +471,67 @@ img {
   border-radius: 5px;
   margin-right: 2rem;
   position: relative;
- }
- .projeto-links-visitar a::before {
+}
+
+.projeto-links-visitar a::before {
   content: "";
   position: absolute;
   background-image: url("/Assets/seta.svg");
-  width: 16px;  
-  height: 16px;  
+  width: 16px;
+  height: 16px;
   left: 5px;
 }
- .projeto-links-git a{
+
+.projeto-links-git a {
   border: 1px solid #000000;
   padding: 10px 10px 10px 30px;
   border-radius: 5px;
   background: #ffffff;
   color: #000000;
   position: relative;
- }
- .projeto-links-git a::before {
+}
+
+.projeto-links-git a::before {
   content: "";
   position: absolute;
   background-image: url("/Assets/gitlink.svg");
-  width: 16px;  
-  height: 16px;  
+  width: 16px;
+  height: 16px;
   left: 8px;
   top: 8px;
 }
 
- /* hard skills */
+/* hard skills */
 
- .container-hard-skills{
+.container-hard-skills {
   width: 100%;
-  height: 100vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   background: rgba(0, 0, 0, 0.2) url('/Assets/background.jpg');
- }
+}
 
- .flex-hard-skills{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr  1fr;
-  justify-items: center;
+.flex-hard-skills {
+  display: flex;
+  flex-wrap: wrap;
   gap: 4rem;
-  column-gap: 9rem;
- }
- .hard-skills{
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
+  column-gap: 6rem;
+  justify-content: center;
+
+}
+
+
+
+.hard-skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 230px;
   height: 180px;
   border-radius: 10px;
   background: #ECECEC;
- }
+}
 
 /* ---- reset ---- */
 body {
