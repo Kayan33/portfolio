@@ -530,7 +530,7 @@ img {
   width: 230px;
   height: 180px;
   border-radius: 10px;
-  background: #ECECEC;
+  background: linear-gradient(to bottom, #ECECEC 35%, #929292);
 }
 
 /* ---- reset ---- */
