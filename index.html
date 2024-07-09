@@ -6,16 +6,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portfolio</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="/utilidades/cores.css" />
+  <link rel="stylesheet" href="/utilidades/fonte.css" />
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link href="https://fonts.googleapis.com/css2?family=Lacquer&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
   <header>
     <nav class="container-header">
-      <h3>Kayan</h3>
-      <ul class="lista-header">
-        <li><a href="#home">HOME</a></li>
+      <h3 class="texto-grande">Kayan</h3>
+      <ul class="lista-header texto-pequeno-02 " >
+        <li ><a href="#home">HOME</a></li>
         <li><a href="#sobre">SOBRE MIM</a></li>
         <li><a href="#experiencia">EXPERIÊNCIA</a></li>
         <li><a href="#projetos">PROJETOS</a></li>
@@ -28,14 +32,14 @@
       <section id="home" class="section-home">
         <div class="container-home">
           <p><span>Olá</span> eu sou</p>
-          <h1 data-aos="fade-right">Kayan Pereira</h1>
-          <h2 data-aos="fade-left">Desenvolvedor <br />Full-Stack</h2>
-          <div class="contact-section">
-            <a class="link-fale-comigo" href="whats">Fale Comigo</a>
+          <h1 class="texto-extra-grande cor-3" data-aos="fade-right">Kayan Pereira</h1>
+          <h2 data-aos="fade-left" class="texto-grande cor-3">Desenvolvedor <br />Full-Stack</h2>
+          <div class="contact-section texto-pequeno-02">
+            <a class="link-fale-comigo cor-1" href="whats">Fale Comigo</a>
             <a href="#">
               <img class="contact-icon" src="/Assets/Icon.svg" alt="" />
             </a>
-            <a href="" class="link-trabalhos">Veja meu trabalho</a>
+            <a href="" class="texto-pequeno-02 cor-3">Veja meu trabalho</a>
           </div>
         </div>
       </section>
@@ -47,13 +51,13 @@
       <img class="sobre-img" src="/Assets/perfil.png" alt="Foto de perfil">
     </div>
     <div class="sobre" data-aos="fade-up" data-aos-anchor-placement="top-center">
-      <h1>Sobre <span>mim</span></h1>
-      <h2>Simplesmente apaixonado por codificação.</h2>
+      <h1 class="texto-grande cor-3">Sobre <span>mim</span></h1>
+      <h2 class="texto-medio cor-3">Simplesmente apaixonado por codificação.</h2>
 
       <ul>
-        <li>Experiência em desenvolvimento full-stack.</li>
-        <li>Comprometido com a entrega de software de alta qualidade.</li>
-        <li>Entusiasta por aprender novas tecnologias e frameworks.</li>
+        <li class="texto-pequeno">Experiência em desenvolvimento full-stack.</li>
+        <li class="texto-pequeno">Comprometido com a entrega de software de alta qualidade.</li>
+        <li class="texto-pequeno">Entusiasta por aprender novas tecnologias e frameworks.</li>
       </ul>
       <div class="icons">
         <div class="icon">
@@ -73,16 +77,16 @@
 
   <article class="container-experiencia" id="experiencia">
     <header>
-      <h1><span>Histórico</span> Acadêmico</h1>
+      <h1 class="texto-grande cor-3"><span>Histórico</span> Acadêmico</h1>
     </header>
     <div class="experiencia">
       <figure class="experiencia-img" data-aos="fade-right" data-aos-duration="1200">
         <img src="/Assets/senac.png" alt="Logo Senac">
       </figure>
       <div class="detalhes-experiencia" data-aos="zoom-in-left">
-        <time datetime="2024-01-01">2024 - <span>momento</span></time>
-        <h2>Técnico em Informática para Internet - <span>Senac Bauru</span></h2>
-        <p><span>Stack:</span> React.js, React Native, JavaScript, Node.js, MySQL, API REST, CSS, HTML</p>
+        <time datetime="2024-01-01" class="texto-pequeno-bold">2024 - <span>momento</span></time>
+        <h2 class="texto-medio cor-3">Técnico em Informática para Internet - <span>Senac Bauru</span></h2>
+        <p class="texto-pequeno cor-3"><span>Stack:</span> React.js, React Native, JavaScript, Node.js, MySQL, API REST, CSS, HTML</p>
       </div>
     </div>
     <div class="experiencia">
@@ -90,18 +94,18 @@
         <img src="/Assets/senac.png" alt="Logo Senac">
       </figure>
       <div class="detalhes-experiencia" data-aos="zoom-in-left">
-        <time datetime="2023-01-01">2023 - 2024/<span>388 Horas</span> </time>
-        <h2>Desenvolvedor Full-Stack - <span>Senac Bauru</span></h2>
-        <p><span>Stack:</span> JavaScript, TypeScript, React.js, Node.js, NestJS, MySQL, CSS, HTML</p>
+        <time datetime="2023-01-01" class="texto-pequeno-bold">2023 - 2024/<span>388 Horas</span> </time>
+        <h2 class="texto-medio cor-3">Desenvolvedor Full-Stack - <span>Senac Bauru</span></h2>
+        <p class="texto-pequeno cor-3"><span>Stack:</span> JavaScript, TypeScript, React.js, Node.js, NestJS, MySQL, CSS, HTML</p>
       </div>
     </div>
-  </article>
   </section>
+  </article>
 
   <section class="container-portifolio" id="projetos">
     <header>
       <h1>PORTFÓLIO</h1>
-      <h2><img src="" alt=""><span>Últimos</span> Projetos</h2>
+      <h2 class="texto-grande cor-3"><img src="" alt=""><span>Últimos</span> Projetos</h2>
     </header>
     <div class="projetos-todos">
 
@@ -114,7 +118,7 @@
           <div class="projeto-content"
           data-aos="fade-up-right" class="card left aos-init aos-animate">
             <h3>How To Brasil</h3>
-            <p>How to Brasil é um projeto voltado a imigrantes recém-chegados no Brasil com intuito de proporcionar saúde,
+            <p class="texto-medio">How to Brasil é um projeto voltado a imigrantes recém-chegados no Brasil com intuito de proporcionar saúde,
               trabalho, alimentação, entre outros.</p>
             <div class="projeto-links">
               <div class="projeto-links-visitar">
@@ -134,7 +138,7 @@
           <div class="projeto-content-02"
           data-aos="fade-up-left" class="card left aos-init aos-animate">
             <h3>How To Brasil</h3>
-            <p>How to Brasil é um projeto voltado a imigrantes recém-chegados no Brasil com intuito de proporcionar saúde,
+            <p class="texto-medio">How to Brasil é um projeto voltado a imigrantes recém-chegados no Brasil com intuito de proporcionar saúde,
               trabalho, alimentação, entre outros.</p>
               <div class="projeto-links-02">
                 <div class="projeto-links-visitar">
@@ -157,7 +161,7 @@
 
   <section class="container-hard-skills" id="habilidades">
     <header>
-        <h1>Hard <span>Skills</span></h1>
+        <h1 class="texto-grande cor-3">Hard <span>Skills</span></h1>
     </header>
     <article class="flex-hard-skills">
         <div class="hard-skills">
@@ -207,7 +211,11 @@
     </article>
 </section>
 
-
+<section class="container-soft-skilss">
+  <header>
+    <h1 class="texto-grande cor-3"><span>Soft</span> Skills  </h1>
+  </header>
+</section>
   <script src="index.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>

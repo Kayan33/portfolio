@@ -1,0 +1,37 @@
+
+.texto-extra-grande{
+  font-size: 80px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+.texto-grande{
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+}
+
+.texto-medio{
+  font-size: 24px;
+  line-height: 1.2;
+  font-family: "Roboto";
+  font-weight: 600;
+}
+
+.texto-pequeno{
+  font-size: 18px;
+  line-height: 1.2;
+  font-family: "Roboto";
+  font-weight: 600;
+}
+
+.texto-pequeno-02{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.texto-pequeno-bold{
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+}
