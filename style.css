@@ -424,6 +424,7 @@ img {
 .container-hard-skills {
   width: 100%;
   background: rgba(0, 0, 0, 0.2) url('/Assets/background.jpg');
+  
 }
 .container-hard-skills header h1 {
   text-align: center;
@@ -437,28 +438,44 @@ img {
 .flex-hard-skills {
   display: flex;
   flex-wrap: wrap;
-  gap: 4rem;
   column-gap: 6rem;
   justify-content: center;
-
+padding-left: 100px;
+padding-right: 100px;
 }
+
 .hard-skills {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 230px;
+  width: calc(28% - 2rem); 
   height: 180px;
   border-radius: 10px;
   background: linear-gradient(to bottom, #ECECEC 35%, #929292);
   margin-bottom: 4rem;
+  position: relative;
+}
+
+@media (max-width: 800px){
+  .hard-skills{
+    width: calc(47% - 2rem);
+  }
+  
+}
+
+@media (max-width: 600px){
+  .hard-skills{
+    width: calc(100% - 2rem);
+  }
+  
 }
 
 
 
 /* Soft skills */
 
-.container-soft-skilss{
+.container-soft-skilss {
   width: 100%;
   background: #000000 url('/Assets/background.jpg');
 }
@@ -472,6 +489,49 @@ img {
 .container-soft-skilss header h1 span {
   color: var(--cor-4);
 }
+
+.flex-soft-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem; 
+  justify-content: center;
+}
+
+.soft-skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: calc(24% - 2rem); 
+  height: 180px;
+  border-radius: 10px;
+  background: linear-gradient(to bottom, #ECECEC 35%, #929292);
+  margin-bottom: 4rem;
+  position: relative;
+}
+
+@media (max-width: 800px){
+  .soft-skills{
+    width: calc(35% - 2rem);
+  }
+
+  .soft-skills-before {
+    display: none;
+  }
+
+  
+}
+.soft-skills-before {
+  position: absolute;
+  background: var(--cor-3);
+  width: 80px;
+  height: 16px;
+  right: -80px;
+}
+
+
+
+
 
 /* ---- reset ---- */
 body {
@@ -491,6 +551,8 @@ canvas {
   background-image: url('/Assets/background.jpg');
 
 }
+
+
 
 /* ---- stats.js ---- */
 .count-particles {
