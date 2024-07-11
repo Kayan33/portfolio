@@ -530,9 +530,94 @@ padding-right: 100px;
 }
 
 
+/* FORMULARIO */
 
+.contato-container{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: rgba(0, 0, 0, 0.2);
+}
 
+.contato-left{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
 
+.contato-left-title h2{
+  font-weight: 600;
+  color: #03235E;
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+.contato-left-title hr {
+  border: none;
+  width: 120px;
+  height: 5px;
+  background-color: #03235E;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.contato-inputs {
+  width: 400px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding-left: 25px;
+  font-weight: 500;
+  color: #868686;
+  border-radius: 50px;
+}
+
+.contato-left textarea{
+  height: 140px;
+  padding-top: 15px;
+  border-radius: 20px;
+}
+
+.contato-inputs:focus{
+  border: 2px solid #03235E;
+}
+
+.contato-inputs::placeholder{
+  color: #000000;
+}
+
+.contato-left button{
+  display: flex;
+  align-items: center;
+  padding: 15px 30px;
+  font-size: 16px;
+  color: #ECECEC;
+  gap: 10px;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(270deg,#03235E,#005200);
+  cursor: pointer;
+}
+
+.contato-left button img {
+  height: 15px;
+}
+
+.contato-right img {
+  width: 600px;
+
+}
+
+@media (max-width:800px){
+  .contato-inputs{
+    width: 80vw;
+  }
+  .contato-right{
+    display: none;
+  }
+}
 /* ---- reset ---- */
 body {
   font: normal 75% Arial, Helvetica, sans-serif;
