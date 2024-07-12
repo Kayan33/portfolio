@@ -242,14 +242,14 @@
     </article>
   </section>
   <section class="contato-container">
-    <form action="" class="contato-left">
+    <form action="https://api.web3forms.com/submit" method="POST" class="contato-left">
       <div class="contato-left-title">
         <h2>formulario</h2>
         <hr>
       </div>
+      <input type="hidden" name="access_key" value="ChaveAcesso">
       <input type="text" name="name" placeholder="seu nome" class="contato-inputs" required>
       <input type="email" name="email" placeholder="seu E-mail" class="contato-inputs" required>
-      <input type="text" name="name" placeholder="seu nome" class="contato-inputs" required>
       <textarea name="message" placeholder="Mensagem" class="contato-inputs" required></textarea>
       <button type="submit">Enviar</button>
     </form>
