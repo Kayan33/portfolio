@@ -50,14 +50,13 @@ img {
   position: absolute;
   justify-content: center;
   align-items: center;
+  height: 100%;
   width: 100%;
 }
 
 /* HOME */
 .section-home {
   display: flex;
-  height: 100vh;
-
   align-items: center;
   position: relative;
   z-index: 1;
@@ -103,6 +102,9 @@ img {
   border-radius: 100%;
   margin-right: 15px;
 }
+
+
+
 /* SOBRE MIM  */
 
 .container-sobre {
@@ -608,14 +610,6 @@ padding-right: 100px;
 
 }
 
-@media (max-width:800px){
-  .contato-inputs{
-    width: 80vw;
-  }
-  .contato-right{
-    display: none;
-  }
-}
 
 
 /* ---- reset ---- */

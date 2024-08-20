@@ -1,37 +1,108 @@
-
-.texto-extra-grande{
-  font-size: 80px;
+.texto-extra-grande {
+  font-size: 5rem; /* Usar rem para tamanhos de fonte responsivos */
   font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
-.texto-grande{
+
+.texto-grande {
   font-family: "Poppins", sans-serif;
   font-weight: 800;
-  font-size: 48px;
+  font-size: 3rem; /* Usar rem para tamanhos de fonte responsivos */
 }
 
-.texto-medio{
-  font-size: 24px;
+.texto-medio {
+  font-size: 1.5rem; /* Usar rem para tamanhos de fonte responsivos */
   line-height: 1.2;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 600;
 }
 
-.texto-pequeno{
-  font-size: 18px;
+.texto-pequeno {
+  font-size: 1.125rem; /* Usar rem para tamanhos de fonte responsivos */
   line-height: 1.2;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 600;
 }
 
-.texto-pequeno-02{
+.texto-pequeno-02 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 0.875rem; /* Usar rem para tamanhos de fonte responsivos */
 }
 
-.texto-pequeno-bold{
+.texto-pequeno-bold {
   font-family: "Poppins", sans-serif;
   font-weight: 800;
-  font-size: 14px;
+  font-size: 0.875rem; /* Usar rem para tamanhos de fonte responsivos */
+}
+
+/* Consultas de mídia para telas menores */
+
+@media (max-width: 1200px) {
+  .texto-extra-grande {
+    font-size: 4rem;
+  }
+
+  .texto-grande {
+    font-size: 2.5rem;
+  }
+
+  .texto-medio {
+    font-size: 1.25rem;
+  }
+
+  .texto-pequeno {
+    font-size: 1rem;
+  }
+
+  .texto-pequeno-02,
+  .texto-pequeno-bold {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .texto-extra-grande {
+    font-size: 3rem;
+  }
+
+  .texto-grande {
+    font-size: 2rem;
+  }
+
+  .texto-medio {
+    font-size: 1rem;
+  }
+
+  .texto-pequeno {
+    font-size: 0.875rem;
+  }
+
+  .texto-pequeno-02,
+  .texto-pequeno-bold {
+    font-size: 0.6875rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .texto-extra-grande {
+    font-size: 2rem;
+  }
+
+  .texto-grande {
+    font-size: 1.5rem;
+  }
+
+  .texto-medio {
+    font-size: 0.875rem;
+  }
+
+  .texto-pequeno {
+    font-size: 0.75rem;
+  }
+
+  .texto-pequeno-02,
+  .texto-pequeno-bold {
+    font-size: 0.625rem;
+  }
 }
