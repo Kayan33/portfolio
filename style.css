@@ -731,6 +731,13 @@ display: none;
   }
 }
 
+@media (max-width: 450px){
+ 
+  .contato-inputs{
+    width: 250px;
+  }
+}
+
 /* ---- reset ---- */
 body {
   font: normal 75% Arial, Helvetica, sans-serif;
