@@ -17,23 +17,7 @@ img {
 }
 
 /* HEADER */
-.container-header {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  right: 0;
-  z-index: 1000;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: transparent;
-  padding: 22px 200px;
-  background-color: rgba(0, 0, 0, 0.1);
-}
 
-.container-header h3 {
-  padding-right: 20px;
-}
 
 .lista-header {
   display: flex;
@@ -62,10 +46,6 @@ img {
   z-index: 1;
 }
 
-.container-home {
-
-  margin-top: 100px;
-}
 
 .container-home span {
   background-color: var(--cor-4);
@@ -77,6 +57,7 @@ img {
 
 .container-home p {
   font-size: 20px;
+  
 }
 
 .container-home h2 {
@@ -101,6 +82,18 @@ img {
   padding: 10px;
   border-radius: 100%;
   margin-right: 15px;
+}
+.contact-trabalho{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+@media (max-width: 600px){
+  .contact-trabalho{
+    display: none;
+  
+  } 
 }
 
 
@@ -325,21 +318,15 @@ display: none;
 
 }
 
-.dcontainer-portifolio header {
+.container-portifolio header {
   width: 100%;
 }
 
-.container-portifolio header h1 {
-  font-family: "Lacquer", sans-serif;
-  font-weight: 800;
-  font-size: 17vw;
-  white-space: nowrap;
-  color: rgba(0, 0, 0, 0.1);
-}
+
 
 .container-portifolio header h2 {
   text-align: center;
-  margin-bottom: 4rem;
+  margin: 3rem 0rem;
 }
 
 .container-portifolio header h2 span {
