@@ -436,7 +436,7 @@ display: none;
   top: 8px;
 }
 
-@media (max-width: 800px){
+@media (max-width: 900px){
 
   .projetos-todos{
     gap: 3rem;
@@ -445,6 +445,14 @@ display: none;
     max-height: 200px;
     animation: moveIconPortifolio 4s infinite ease-in-out;
   }
+  .projeto-content h3{
+text-align: left;
+  }
+}
+@media (max-width: 600px) {
+  .projeto-content h3{
+    text-align: center;
+      }
 }
 
 /* hard skills */

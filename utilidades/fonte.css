@@ -32,28 +32,7 @@
 
 /* Consultas de mídia para telas menores */
 
-@media (max-width: 1200px) {
-  .texto-extra-grande {
-    font-size: 4rem;
-  }
 
-  .texto-grande {
-    font-size: 2.5rem;
-  }
-
-  .texto-medio {
-    font-size: 1.25rem;
-  }
-
-  .texto-pequeno {
-    font-size: 1rem;
-  }
-
-  .texto-pequeno-02,
-  .texto-pequeno-bold {
-    font-size: 0.75rem;
-  }
-}
 
 @media (max-width: 900px) {
   .texto-extra-grande {
@@ -78,25 +57,4 @@
   }
 }
 
-@media (max-width: 600px) {
-  .texto-extra-grande {
-    font-size: 2rem;
-  }
 
-  .texto-grande {
-    font-size: 1.5rem;
-  }
-
-  .texto-medio {
-    font-size: 0.875rem;
-  }
-
-  .texto-pequeno {
-    font-size: 0.75rem;
-  }
-
-  .texto-pequeno-02,
-  .texto-pequeno-bold {
-    font-size: 0.625rem;
-  }
-}
