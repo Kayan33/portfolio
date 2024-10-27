@@ -12,7 +12,7 @@
 
 .texto-medio {
   font-size: 1.5rem;
-  line-height: 1.3;
+  line-height: 1.5;
   font-family: "Inter", sans-serif;
   font-weight: 600; 
 }
@@ -37,18 +37,18 @@
 
 @media (max-width: 900px) {
   .texto-extra-grande {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .texto-grande {
     font-size: 2rem;
   }
   .texto-medio {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   
   .texto-pequeno-bold {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }
 
