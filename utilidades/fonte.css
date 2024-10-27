@@ -43,7 +43,9 @@
   .texto-grande {
     font-size: 2rem;
   }
-
+  .texto-medio {
+    font-size: 1rem;
+  }
   
   .texto-pequeno-bold {
     font-size: 1rem;
