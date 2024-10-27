@@ -57,7 +57,7 @@ img {
 
 .container-home p {
   font-size: 20px;
-  
+  margin-bottom: 15px;
 }
 
 .container-home h2 {
@@ -74,7 +74,7 @@ img {
 .contact-section {
   display: flex;
   align-items: center;
-  margin-top: 45px;
+  margin-top: 25px;
 }
 
 .contact-section img {
@@ -94,6 +94,9 @@ img {
     display: none;
   
   } 
+  .contact-section{
+    justify-content: center;
+  }
 }
 
 
