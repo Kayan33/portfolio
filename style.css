@@ -370,17 +370,13 @@ display: none;
 
 
 .projeto-content h3{
-  font-family: "Poppins", sans-serif;
-  font-weight: 800;
-  font-size: 38px;
-  color: var(--cor-3);
   text-align: end;
   margin-bottom: 20px;
 }
 
 
 .projeto-content p {
-  max-width: 30ch;
+  max-width: 35ch;
   word-break: break-word;
   margin-bottom: 20px;
 }
@@ -393,7 +389,6 @@ display: none;
 
 .projeto-links {
   display: flex;
-  justify-content: flex-end;
   align-items: center;
 }
 

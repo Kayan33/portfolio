@@ -1,40 +1,34 @@
 .texto-extra-grande {
-  font-size: 5rem; /* Usar rem para tamanhos de fonte responsivos */
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
+  font-size: 5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600; /* Peso ligeiramente mais leve para suavizar o impacto */
 }
 
 .texto-grande {
-  font-family: "Poppins", sans-serif;
-  font-weight: 800;
-  font-size: 3rem; /* Usar rem para tamanhos de fonte responsivos */
+  font-size: 3rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600; /* Peso intermediário para manter a hierarquia visual */
 }
 
 .texto-medio {
-  font-size: 1.5rem; /* Usar rem para tamanhos de fonte responsivos */
-  line-height: 1.2;
-  font-family: "Roboto", sans-serif;
-  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.3;
+  font-family: "Inter", sans-serif;
+  font-weight: 400; /* Peso regular para um visual limpo e agradável para leitura */
 }
 
 .texto-pequeno {
-  font-size: 1.125rem; /* Usar rem para tamanhos de fonte responsivos */
-  line-height: 1.2;
-  font-family: "Roboto", sans-serif;
-  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.4;
+  font-family: "Inter", sans-serif;
+  font-weight: 300; /* Peso mais leve para evitar excesso de contraste */
 }
 
-.texto-pequeno-02 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-size: 0.875rem; /* Usar rem para tamanhos de fonte responsivos */
-}
 
-.texto-pequeno-bold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 800;
-  font-size: 0.875rem; /* Usar rem para tamanhos de fonte responsivos */
-}
+
+
+
+
 
 /* Consultas de mídia para telas menores */
 
