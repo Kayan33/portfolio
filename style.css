@@ -166,6 +166,25 @@ img {
   animation: moveIcon 2.5s infinite ease-in-out;
 }
 
+.icon2 {
+  width: 55px;
+  height: 55px;
+  background: linear-gradient(to bottom, #ECECEC, #868686);
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon2 img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  animation: moveIcon 2.5s infinite ease-in-out;
+}
+
 @keyframes moveIcon {
   0% {
     transform: translateY(0);
@@ -371,13 +390,12 @@ display: none;
 
 
 .projeto-content h3{
-  text-align: end;
   margin-bottom: 20px;
 }
 
 
 .projeto-content p {
-  max-width: 35ch;
+  max-width: 50ch;
   word-break: break-word;
   margin-bottom: 20px;
 }
