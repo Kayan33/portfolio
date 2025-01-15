@@ -251,7 +251,7 @@ img {
   box-sizing: border-box;
 }
 
-.experiencia-img,.experiencia-img-02 img {
+.experiencia-img img {
   background: linear-gradient(to bottom, #ECECEC, #868686);
   padding: 10px;
   border-radius: 50%;
@@ -319,7 +319,7 @@ img {
  .experiencia-img img {
   height: 70px;
  }
- .experiencia-img-02 img{
+ .experiencia-img img{
 display: none;
  }
 }
